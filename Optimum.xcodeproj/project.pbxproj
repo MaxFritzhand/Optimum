@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB1EB5229ECF28C0069DE87 /* OptimumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1EB5129ECF28C0069DE87 /* OptimumApp.swift */; };
+		6DB1EB5429ECF28C0069DE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1EB5329ECF28C0069DE87 /* ContentView.swift */; };
+		6DB1EB5629ECF28D0069DE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB1EB5529ECF28D0069DE87 /* Assets.xcassets */; };
+		6DB1EB5929ECF28D0069DE87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB1EB5829ECF28D0069DE87 /* Preview Assets.xcassets */; };
+		6DB1EB6429ECF28D0069DE87 /* OptimumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1EB6329ECF28D0069DE87 /* OptimumTests.swift */; };
+		6DB1EB6E29ECF28D0069DE87 /* OptimumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1EB6D29ECF28D0069DE87 /* OptimumUITests.swift */; };
+		6DB1EB7029ECF28D0069DE87 /* OptimumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1EB6F29ECF28D0069DE87 /* OptimumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB1EB6029ECF28D0069DE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB1EB4629ECF28C0069DE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB1EB4D29ECF28C0069DE87;
+			remoteInfo = Optimum;
+		};
+		6DB1EB6A29ECF28D0069DE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB1EB4629ECF28C0069DE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB1EB4D29ECF28C0069DE87;
+			remoteInfo = Optimum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB1EB4E29ECF28C0069DE87 /* Optimum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optimum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB1EB5129ECF28C0069DE87 /* OptimumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumApp.swift; sourceTree = "<group>"; };
+		6DB1EB5329ECF28C0069DE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DB1EB5529ECF28D0069DE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB1EB5829ECF28D0069DE87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB1EB5A29ECF28D0069DE87 /* Optimum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Optimum.entitlements; sourceTree = "<group>"; };
+		6DB1EB5F29ECF28D0069DE87 /* OptimumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB1EB6329ECF28D0069DE87 /* OptimumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumTests.swift; sourceTree = "<group>"; };
+		6DB1EB6929ECF28D0069DE87 /* OptimumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB1EB6D29ECF28D0069DE87 /* OptimumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumUITests.swift; sourceTree = "<group>"; };
+		6DB1EB6F29ECF28D0069DE87 /* OptimumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB1EB4B29ECF28C0069DE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB5C29ECF28D0069DE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB6629ECF28D0069DE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB1EB4529ECF28C0069DE87 = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB5029ECF28C0069DE87 /* Optimum */,
+				6DB1EB6229ECF28D0069DE87 /* OptimumTests */,
+				6DB1EB6C29ECF28D0069DE87 /* OptimumUITests */,
+				6DB1EB4F29ECF28C0069DE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB1EB4F29ECF28C0069DE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB4E29ECF28C0069DE87 /* Optimum.app */,
+				6DB1EB5F29ECF28D0069DE87 /* OptimumTests.xctest */,
+				6DB1EB6929ECF28D0069DE87 /* OptimumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB1EB5029ECF28C0069DE87 /* Optimum */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB5129ECF28C0069DE87 /* OptimumApp.swift */,
+				6DB1EB5329ECF28C0069DE87 /* ContentView.swift */,
+				6DB1EB5529ECF28D0069DE87 /* Assets.xcassets */,
+				6DB1EB5A29ECF28D0069DE87 /* Optimum.entitlements */,
+				6DB1EB5729ECF28D0069DE87 /* Preview Content */,
+			);
+			path = Optimum;
+			sourceTree = "<group>";
+		};
+		6DB1EB5729ECF28D0069DE87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB5829ECF28D0069DE87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DB1EB6229ECF28D0069DE87 /* OptimumTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB6329ECF28D0069DE87 /* OptimumTests.swift */,
+			);
+			path = OptimumTests;
+			sourceTree = "<group>";
+		};
+		6DB1EB6C29ECF28D0069DE87 /* OptimumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1EB6D29ECF28D0069DE87 /* OptimumUITests.swift */,
+				6DB1EB6F29ECF28D0069DE87 /* OptimumUITestsLaunchTests.swift */,
+			);
+			path = OptimumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB1EB4D29ECF28C0069DE87 /* Optimum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB1EB7329ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "Optimum" */;
+			buildPhases = (
+				6DB1EB4A29ECF28C0069DE87 /* Sources */,
+				6DB1EB4B29ECF28C0069DE87 /* Frameworks */,
+				6DB1EB4C29ECF28C0069DE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Optimum;
+			productName = Optimum;
+			productReference = 6DB1EB4E29ECF28C0069DE87 /* Optimum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB1EB5E29ECF28D0069DE87 /* OptimumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB1EB7629ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "OptimumTests" */;
+			buildPhases = (
+				6DB1EB5B29ECF28D0069DE87 /* Sources */,
+				6DB1EB5C29ECF28D0069DE87 /* Frameworks */,
+				6DB1EB5D29ECF28D0069DE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB1EB6129ECF28D0069DE87 /* PBXTargetDependency */,
+			);
+			name = OptimumTests;
+			productName = OptimumTests;
+			productReference = 6DB1EB5F29ECF28D0069DE87 /* OptimumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DB1EB6829ECF28D0069DE87 /* OptimumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB1EB7929ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "OptimumUITests" */;
+			buildPhases = (
+				6DB1EB6529ECF28D0069DE87 /* Sources */,
+				6DB1EB6629ECF28D0069DE87 /* Frameworks */,
+				6DB1EB6729ECF28D0069DE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB1EB6B29ECF28D0069DE87 /* PBXTargetDependency */,
+			);
+			name = OptimumUITests;
+			productName = OptimumUITests;
+			productReference = 6DB1EB6929ECF28D0069DE87 /* OptimumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB1EB4629ECF28C0069DE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6DB1EB4D29ECF28C0069DE87 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6DB1EB5E29ECF28D0069DE87 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6DB1EB4D29ECF28C0069DE87;
+					};
+					6DB1EB6829ECF28D0069DE87 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6DB1EB4D29ECF28C0069DE87;
+					};
+				};
+			};
+			buildConfigurationList = 6DB1EB4929ECF28C0069DE87 /* Build configuration list for PBXProject "Optimum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB1EB4529ECF28C0069DE87;
+			productRefGroup = 6DB1EB4F29ECF28C0069DE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB1EB4D29ECF28C0069DE87 /* Optimum */,
+				6DB1EB5E29ECF28D0069DE87 /* OptimumTests */,
+				6DB1EB6829ECF28D0069DE87 /* OptimumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB1EB4C29ECF28C0069DE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB1EB5929ECF28D0069DE87 /* Preview Assets.xcassets in Resources */,
+				6DB1EB5629ECF28D0069DE87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB5D29ECF28D0069DE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB6729ECF28D0069DE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB1EB4A29ECF28C0069DE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB1EB5429ECF28C0069DE87 /* ContentView.swift in Sources */,
+				6DB1EB5229ECF28C0069DE87 /* OptimumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB5B29ECF28D0069DE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB1EB6429ECF28D0069DE87 /* OptimumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB1EB6529ECF28D0069DE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB1EB7029ECF28D0069DE87 /* OptimumUITestsLaunchTests.swift in Sources */,
+				6DB1EB6E29ECF28D0069DE87 /* OptimumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB1EB6129ECF28D0069DE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB1EB4D29ECF28C0069DE87 /* Optimum */;
+			targetProxy = 6DB1EB6029ECF28D0069DE87 /* PBXContainerItemProxy */;
+		};
+		6DB1EB6B29ECF28D0069DE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB1EB4D29ECF28C0069DE87 /* Optimum */;
+			targetProxy = 6DB1EB6A29ECF28D0069DE87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DB1EB7129ECF28D0069DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DB1EB7229ECF28D0069DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6DB1EB7429ECF28D0069DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Optimum/Optimum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Optimum/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.Optimum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6DB1EB7529ECF28D0069DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Optimum/Optimum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Optimum/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.Optimum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6DB1EB7729ECF28D0069DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.OptimumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optimum";
+			};
+			name = Debug;
+		};
+		6DB1EB7829ECF28D0069DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.OptimumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optimum";
+			};
+			name = Release;
+		};
+		6DB1EB7A29ECF28D0069DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.OptimumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Optimum;
+			};
+			name = Debug;
+		};
+		6DB1EB7B29ECF28D0069DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzy.OptimumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Optimum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB1EB4929ECF28C0069DE87 /* Build configuration list for PBXProject "Optimum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB1EB7129ECF28D0069DE87 /* Debug */,
+				6DB1EB7229ECF28D0069DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB1EB7329ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "Optimum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB1EB7429ECF28D0069DE87 /* Debug */,
+				6DB1EB7529ECF28D0069DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB1EB7629ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "OptimumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB1EB7729ECF28D0069DE87 /* Debug */,
+				6DB1EB7829ECF28D0069DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB1EB7929ECF28D0069DE87 /* Build configuration list for PBXNativeTarget "OptimumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB1EB7A29ECF28D0069DE87 /* Debug */,
+				6DB1EB7B29ECF28D0069DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB1EB4629ECF28C0069DE87 /* Project object */;
+}
