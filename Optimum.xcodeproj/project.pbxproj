@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D2A01F229ED00B8007B67B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6DB1EB4E29ECF28C0069DE87 /* Optimum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optimum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB1EB5129ECF28C0069DE87 /* OptimumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumApp.swift; sourceTree = "<group>"; };
 		6DB1EB5329ECF28C0069DE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		6DB1EB5029ECF28C0069DE87 /* Optimum */ = {
 			isa = PBXGroup;
 			children = (
+				6D2A01F229ED00B8007B67B5 /* Info.plist */,
 				6DB1EB5129ECF28C0069DE87 /* OptimumApp.swift */,
 				6DB1EB5329ECF28C0069DE87 /* ContentView.swift */,
 				6DB1EB5529ECF28D0069DE87 /* Assets.xcassets */,
@@ -424,6 +426,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Optimum/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +454,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Optimum/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
